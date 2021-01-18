@@ -99,7 +99,7 @@ This project is to develop a Restaurant website applying modern, scalable, high 
 ## Constraints
 ### Account
 - User and email must be unique and not empty
-- User, password and email are required for creating new account
+- User, password and email are required for creating new patient
 
 ### Table
 - Valid statuses { available, unavailable }

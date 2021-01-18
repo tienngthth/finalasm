@@ -9,9 +9,9 @@ services:
     ports:
       - 8761:8761
     networks:
-      - restaurant
+      - network
     restart: always
 networks:
   restaurant:
-    name: restaurant
+    name: network
     driver: bridge

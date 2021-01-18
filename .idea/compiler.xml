@@ -6,23 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RestaurantUserService" />
-        <module name="RestaurantTableService" />
-        <module name="KafkaService" />
-        <module name="RestaurantAccountService" />
-        <module name="RestaurantMenuService" />
-        <module name="RestaurantReservationService" />
         <module name="RestaurantService" />
         <module name="APIGateway" />
-        <module name="RestaurantLoginService" />
         <module name="DiscoveryService" />
+        <module name="AccountService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AccountService" target="11" />
       <module name="APIGateway" target="14" />
       <module name="DiscoveryService" target="11" />
       <module name="KafkaService" target="11" />
-      <module name="RestaurantAccountService" target="11" />
+      <module name="PatientService" target="11" />
       <module name="RestaurantLoginService" target="11" />
       <module name="RestaurantMenuService" target="11" />
       <module name="RestaurantReservationService" target="11" />
@@ -34,9 +29,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="APIGateway" options="-parameters" />
+      <module name="AccountService" options="-parameters" />
       <module name="DiscoveryService" options="-parameters" />
       <module name="KafkaService" options="-parameters" />
-      <module name="RestaurantAccountService" options="-parameters" />
+      <module name="PatientService" options="-parameters" />
       <module name="RestaurantLoginService" options="-parameters" />
       <module name="RestaurantMenuService" options="-parameters" />
       <module name="RestaurantReservationService" options="-parameters" />
